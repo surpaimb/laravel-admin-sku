@@ -3,30 +3,30 @@
     "description": "",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/jade-kun/sku",
+    "homepage": "https://github.com/hanson/laravel-admin-sku",
     "license": "MIT",
     "authors": [
         {
-            "name": "jade",
-            "email": "jade@likunit.com"
+            "name": "Hanson",
+            "email": "h@hanc.cc"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "encore/laravel-admin": "~1.6"
+        "php": ">=7.0.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~6.0"
+        "phpunit/phpunit": "~6.0",
+        "encore/laravel-admin": "~1.6"
     },
     "autoload": {
         "psr-4": {
-            "JadeKun\\Sku\\": "src/"
+            "Hanson\\LaravelAdminSku\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "JadeKun\\Sku\\SkuServiceProvider"
+                "Hanson\\LaravelAdminSku\\SkuServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace JadeKun\Sku;
+namespace Hanson\LaravelAdminSku;
 
 use Encore\Admin\Extension;
 

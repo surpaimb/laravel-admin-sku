@@ -1,6 +1,6 @@
 <?php
 
-namespace JadeKun\Sku;
+namespace Hanson\LaravelAdminSku;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Form;
@@ -23,7 +23,7 @@ class SkuServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
-                [$assets => public_path('vendor/jadekun/sku')],
+                [$assets => public_path('vendor/hanson/sku')],
                 'sku'
             );
         }
