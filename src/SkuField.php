@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanson\LaravelAdminSku;
+namespace Surpaimb\LaravelAdminSku;
 
 use Encore\Admin\Form\Field;
 
@@ -9,11 +9,11 @@ class SkuField extends Field
     protected $view = 'sku::sku_field';
 
     protected static $js = [
-        'vendor/hanson/sku/sku.js'
+        'vendor/surpaimb/sku/sku.js'
     ];
 
     protected static $css = [
-        'vendor/hanson/sku/sku.css'
+        'vendor/surpaimb/sku/sku.css'
     ];
 
     public function render()

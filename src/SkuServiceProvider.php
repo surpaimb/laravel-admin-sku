@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanson\LaravelAdminSku;
+namespace Surpaimb\LaravelAdminSku;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Form;
@@ -23,7 +23,7 @@ class SkuServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
-                [$assets => public_path('vendor/hanson/sku')],
+                [$assets => public_path('vendor/surpaimb/sku')],
                 'sku'
             );
         }

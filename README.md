@@ -5,7 +5,7 @@ laravel-admin extension 商品SKU
 
 ## 安装
 ```bash
-composer require hanson/laravel-admin-sku
+composer require surpaimb/laravel-admin-sku
 
 php artisan vendor:publish --tag=sku
 ```
@@ -14,7 +14,7 @@ php artisan vendor:publish --tag=sku
 
 ### 配置sku上传地址
 
-文件路径 `public/vendor/hanson/sku/sku.js`
+文件路径 `public/vendor/surpaimb/sku/sku.js`
 
 ```javascript
 const UploadHost = '/admin/upload_file';
@@ -75,7 +75,7 @@ $form->saving(function($form) {
 
 ## 自定义 sku 数据
 
-以下操作均为修改 `public/vendor/hanson/sku/sku.js`
+以下操作均为修改 `public/vendor/surpaimb/sku/sku.js`
 
 ### 例子
 
